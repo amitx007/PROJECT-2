@@ -1,0 +1,126 @@
+/* navigation bar */
+.navigation #logo img{
+    width: 9rem;
+    height: 14rem;
+}
+.navigation #navbar ul{
+    height: 15rem;
+}
+.navigation #navbar li a{
+    padding: 0px 0.5rem;
+    font-size: 1.3rem;
+}
+.navigation #navbar li a:hover{
+    font-size: 1.6rem;
+}
+/* about us */
+.sec1{
+    flex-direction: column;
+    height: 90vh;
+}
+.sec1::before{
+    height: 90vh;
+}
+.sec1 #coffeeimage{
+    padding-left: 2rem;
+    
+}
+.sec1 #coffeeimage img {
+    height: 8rem;
+    width: 15rem;
+}
+.sec1 #aboutus{
+    height: 14.5rem;
+    width: 12rem;
+}
+.sec1 #aboutus h2{
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    padding-left: 1rem;
+    font-size: 4rem;
+}
+.sec1 #aboutus p{
+    padding: 0rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+/* services */
+.sec2 #serviceshead h2{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+}
+.sec2 #servicespara p{
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+/* 3 images  */
+.sec3{
+    font-size: 1.5rem;
+    height: 120vh;
+    flex-direction: column;
+}
+.sec3::before{
+    height: 120vh;
+}
+#img1{
+    margin: 0px 1rem;
+}
+#img2{
+    margin: 0px 1rem;
+}
+#img3{
+    margin: 0px 1rem;
+}
+#img1 img{
+    height: 12rem;
+    width: 8rem;
+    margin-bottom: 1rem;
+    border-radius: 0.9rem;
+}
+#img1 img:hover{
+    height:12.5rem;
+    width: 8.5rem;
+}
+#img2 img{
+    height: 8rem;
+    width: 12rem;
+    margin-bottom: 1rem;
+    border-radius: 0.9rem;
+}
+#img2 img:hover{
+    height: 8.5rem;
+    width: 12.5rem;
+}
+#img2 span{
+    height: 2rem;
+    padding-top:0rem
+}
+#img3 img{
+    height: 12rem;
+    width: 8rem;
+    margin-bottom: 1rem;
+    border-radius: 0.9rem;
+}
+#img3 img:hover{
+    height:12.5rem;
+    width: 8.5rem;
+}
+/* contact us */
+.sec4 h2{
+    font-size: 3rem;
+}
+.sec4 #contacts input{
+    height: 1.5rem;
+    width: 14rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+.sec4 #contacts #textarea{
+    height: 15rem;
+   width: 14rem;
+   border-radius: 2rem;
+   font-size: 2rem;
+}

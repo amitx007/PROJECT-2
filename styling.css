@@ -1,0 +1,301 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+
+}
+.navigation{
+    position: relative;
+}
+/* navigation bar top part */
+/* navigation bar img */
+.navigation::before{
+    display: block;
+    content: "";
+    background: url("pexels-polina-tankilevitch-4109743.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/* logo */
+.navigation #logo{
+    display: flex;
+    justify-content: center;
+}
+.navigation #logo img{
+    width: 11rem;
+    height: 16rem;
+    margin-top: 4rem;
+    transition: all;
+}
+.navigation #logo img:hover{
+    box-shadow: 0.4rem 0.4rem 1.5rem #DAD0C2 ,-0.4rem -0.4rem 1.5rem #DAD0C2 ;
+}
+/* navigation items */
+.navigation #navbar ul{
+    display: flex;
+    height: 7rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+.navigation #navbar li{
+    list-style: none;
+}
+.navigation #navbar li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0px 3rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    transition: all;
+}
+.navigation #navbar li a:hover{
+    color: #F4DFD0;
+    font-size: 2.25rem;
+    transition-duration: 0.5s;
+    text-shadow: 0px 0px 1rem #DAD0C2;
+}
+/* Section 1 about us */
+.sec1::before{
+    content: "";
+   background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+    transition-duration: 2s;
+    position: relative;
+}
+/* section 1 image */
+.sec1 #coffeeimage{
+    padding-right: 2rem;
+}
+.sec1 #coffeeimage img{
+    height: 16rem;
+    width: 27rem;
+    transition: all;
+
+}
+.sec1 #coffeeimage img:hover{
+    box-shadow: 0.4rem 0.4rem 1.5rem #DAD0C2 ,-0.4rem -0.4rem 1.5rem #DAD0C2;
+    transition-duration: 1s;
+}
+.sec1 #aboutus{
+    height: 29rem;
+    width: 24rem;
+}
+/* section 1 content */
+.sec1 #aboutus h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    font-family:  'Amatic SC', cursive;
+    color: #F4DFD0;
+    font-size: 4rem;
+}
+.sec1 #aboutus p{
+    padding: 1rem;
+    font-family: 'BenchNine', sans-serif;
+    color: #DAD0C2;
+    font-size: 2rem;
+    text-align: justify;
+}
+/* section 2 services */
+.sec2::before{
+    content: "";
+    background: url("pexels-andrea-piacquadio-3796810.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    opacity: 0.85;
+    z-index: -1;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.sec2 #serviceshead h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    font-family:  'Amatic SC', cursive;
+    font-size: 4rem;
+    padding-left: 0px;
+}
+.sec2 #servicespara p{
+    padding: 1rem;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+/* section 3 */
+.sec3::before{
+    content: "";
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    z-index: -1;
+}
+.sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DAD0C2;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 2rem;
+    transition: all;
+    position: relative;
+}
+#img1{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 2rem;
+    
+}
+#img2{
+    display: flex;
+    flex-direction: column;
+    color: #DAD0C2;
+    text-align: center;
+    margin: 4rem 2rem;
+    box-sizing: border-box;
+}
+#img3{
+    display: flex;
+    flex-direction: column;
+    color: #DAD0C2;
+    text-align: center;
+    margin: 4rem 2rem;
+}
+#img1 img{
+    height: 21rem;
+    width: 14rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+#img1 img:hover{
+    height: 23rem;
+    width: 16rem;
+    box-shadow: 0.4rem 0.4rem 1.5rem #DAD0C2 ,-0.4rem -0.4rem 1.5rem #DAD0C2;
+    transition-duration: 1s;
+}
+#img2 img{
+    height: 14rem;
+    width: 21rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+#img2 img:hover{
+    height: 16rem;
+    width: 23rem;
+    box-shadow: 0.4rem 0.4rem 1.5rem #DAD0C2 ,-0.4rem -0.4rem 1.5rem #DAD0C2;
+    transition-duration: 1s;
+}
+#img3 img{
+    height: 21rem;
+    width: 14rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+#img3 img:hover{
+    height: 23rem;
+    width: 16rem;
+    box-shadow: 0.4rem 0.4rem 1.5rem #DAD0C2 ,-0.4rem -0.4rem 1.5rem #DAD0C2;
+    transition-duration: 1s;
+}
+#img2 span{
+    box-sizing: border-box;
+    height: 5rem;
+    padding-top:4.5rem;
+}
+/* section 3 contact us */
+.sec4{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.sec4::before{
+    content: "";
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    z-index: -1;
+}
+.sec4 h2{
+    margin-top: 0rem;
+    margin-bottom: 1px;
+    font-family:  'Amatic SC', cursive;
+    color: #F4DFD0;
+    font-size: 4rem;
+    text-align: center;
+}
+.sec4 #contacts input{
+   display: block;
+   height: 2rem;
+   width: 20rem;
+   border-radius: 2rem;
+   font-family: 'Amatic SC', cursive;
+   font-size: 2rem;
+   text-align: center;
+   margin-bottom: 1rem;
+}
+.sec4 #contacts input:hover{
+    box-shadow: 0.4rem 0.4rem 1.5rem #DAD0C2 ,-0.4rem -0.4rem 1.5rem #DAD0C2;
+}
+.sec4 #contacts #textarea{
+    display: block;
+   height: 14rem;
+   width: 20rem;
+   border-radius: 2rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+.sec4 #contacts #textarea:hover{
+    box-shadow: 0.4rem 0.4rem 1.5rem #DAD0C2 ,-0.4rem -0.4rem 1.5rem #DAD0C2;
+}
+.foot{
+    background-color: #000000;
+    opacity: 0.9;
+    font-family: 'Amatic SC', cursive;
+   font-size: 1.5rem;
+   text-align: center;
+   color: #F4DFD0;
+}
